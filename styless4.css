@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  background-color: #ffe4e1; /* พื้นหลังสีชมพูอ่อน */
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+}
+
+.card {
+  background: #fffaf0; /* สีครีมอ่อน */
+  border-radius: 15px;
+  border: 3px solid #ffcccb;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  color: #ff6699;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #ff6699;
+}
+
+.btn-primary {
+  background-color: #ff99cc;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #ff6699;
+}
+
+.footer {
+  font-size: 14px;
+  color: #ff6699;
+}
+
+.footer p {
+  margin-top: 20px;
+}
+
+/* เพิ่มไอคอนเค้ก */
+.cake-icon {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
